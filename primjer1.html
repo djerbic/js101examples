@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>
+      Hello World!
+    </title>
+    <link rel="stylesheet" type="text/css" href="primjer1.css">
+  </head>
+  <body>
+    <div id="message" style="width: 300px; background-color: red;">
+      Ovo je prva poruka!
+    </div>
+    <script type="text/javascript">
+      var div = document.getElementById("message");
+      div.style.backgroundColor = "green";
+
+      var pocetniText = div.textContent;
+      div.textContent = pocetniText + " :P";
+    </script>
+  </body>
+</html>

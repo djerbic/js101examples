@@ -1,0 +1,21 @@
+.header, .footer {
+    height: 10%;
+    background-color: green;
+}
+
+.content {
+    height: 80%;
+}
+
+.header, .footer, .content {
+    width: 100%;
+}
+
+.content-odd {
+    background-color: #DDDDDD;
+}
+
+.content-first.content-odd {
+    background-color: black;
+    color: white;
+}
